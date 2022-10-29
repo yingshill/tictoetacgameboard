@@ -1,7 +1,7 @@
 """
+Yingshi Liu
 CS3B, Assignment #1, Tic Tac Toe, Part 1
-Copyright 2020 Zibin Yang
-Instructor's solution
+
 """
 
 from enum import Enum
