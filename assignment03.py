@@ -1,6 +1,6 @@
 """
 Yingshi Liu
-CS3B, Assignment #1, Tic Tac Toe, Part 1
+CS3B, Assignment #1, Tic Tac Toe, Part3
 
 """
 
@@ -244,18 +244,7 @@ class BitGameBoard:
 
     def set(self, row, col, player):
         # self.array[row * self.ncols + col] = player
-        """
-        This is Vincy's code
-        index = row * self.ncols + col
-        bit_length = self.get_nrows() * self.get_ncols()
-        position = bit_length - 2 * index - 1
-        PlayerX -> 01
-        if player == GameBoardPlayer.X:
-            bit1 = 0b0 << position
-            bit2 = 0b1 << (position - 1)
-            target = self.get_int()
-            target = self.get_int() | (bit1 | bit2)
-        """
+
         """ Board for 2 players """
         piece = 0b00
         if player == GameBoardPlayer.X:
